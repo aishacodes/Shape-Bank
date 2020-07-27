@@ -1,0 +1,57 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.square {
+    width: 10rem;
+    height: 10rem;
+    background-color: turquoise;
+}
+
+.rectangle {
+    width: 15rem;
+    height: 10rem;
+    background-color: violet;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 10rem solid blueviolet;
+}
+
+.triangle-leftshape {
+    width: 0;
+    height: 0;
+    border-right: 10rem solid rosybrown;
+    border-bottom: 5rem solid transparent;
+    border-top: 5rem solid transparent;
+}
+
+.square2 {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: lightcoral;
+    shape-outside: inset(20px 5px 30px 10px);
+}
