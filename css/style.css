@@ -63,3 +63,17 @@ span {
     border-right: 50px solid transparent;
     border-top: 100px solid red;
 }
+
+.parallelogram {
+    width: 10rem;
+    height: 10rem;
+    transform: skew(20deg);
+    background-color: antiquewhite;
+}
+
+.trapezoid {
+    border-bottom: 10rem solid bisque;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    width: 5rem;
+}
