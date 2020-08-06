@@ -77,3 +77,38 @@ span {
     border-right: 5rem solid transparent;
     width: 5rem;
 }
+
+.diamond {
+    margin: 8rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: chartreuse;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+}
+
+.egg-shape {
+    width: 5rem;
+    height: 10rem;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    ;
+    background-color: darkgray;
+}
+
+.talk-bubble {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: darkorchid;
+    position: relative;
+}
+
+.talk-bubble::before {
+    content: "";
+    position: absolute;
+    border-right: 2rem solid darkorchid;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    top: 1.5rem;
+    left: -1rem;
+}
