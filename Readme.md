@@ -12,6 +12,7 @@ Clone or download this repository and run with a local server of open `index.htm
 ## Features
 - Basic Shapes
 - Polygons
+- Animations
 ## Tech/framework used
 - HTML
 - CSS
