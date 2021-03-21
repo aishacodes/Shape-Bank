@@ -1,47 +1,47 @@
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 div {
-    width: 40em;
-    margin: 1rem 0 0;
+  width: 40em;
+  margin: 1rem 0 0;
 }
 
 .square2 {
-    width: 100px;
-    height: 100px;
-    background-color: lightcoral;
-    float: left;
-    shape-outside: inset(20px 40px 60px 10px);
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  float: left;
+  shape-outside: inset(20px 40px 60px 10px);
 }
 
 .circle {
-    float: left;
-    width: 160px;
-    height: 160px;
-    clip-path: circle();
-    background-color: lightsalmon;
-    shape-outside: circle();
-    margin: 10px;
+  float: left;
+  width: 160px;
+  height: 160px;
+  clip-path: circle();
+  background-color: lightsalmon;
+  shape-outside: circle();
+  margin: 10px;
 }
 
 .half-circle {
-    float: left;
-    width: 160px;
-    height: 160px;
-    background-color: lime;
-    clip-path: circle(50% at 0%);
-    shape-outside: circle(50% at 30%);
+  float: left;
+  width: 160px;
+  height: 160px;
+  background-color: lime;
+  clip-path: circle(50% at 0%);
+  shape-outside: circle(50% at 30%);
 }
 
 .ellipse {
-    margin: 20px;
-    float: left;
-    background-color: maroon;
-    width: 160px;
-    height: 160px;
-    clip-path: ellipse(20% 50%);
-    shape-outside: ellipse(20% 50%);
+  margin: 20px;
+  float: left;
+  background-color: maroon;
+  width: 160px;
+  height: 160px;
+  clip-path: ellipse(20% 50%);
+  shape-outside: ellipse(20% 50%);
 }
