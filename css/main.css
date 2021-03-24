@@ -45,3 +45,21 @@ div {
   clip-path: ellipse(20% 50%);
   shape-outside: ellipse(20% 50%);
 }
+.half-ellipse1 {
+  border-radius: 50% / 100% 100% 0 0;
+}
+.half-ellipse2 {
+  border-radius: 50% / 0 0 100% 100%;
+}
+.half-ellipse3 {
+  border-radius: 100% 0 0 100% / 50%;
+}
+.half-ellipse4 {
+  border-radius: 0 100% 100% 0 / 50%;
+}
+
+.half-ellipse {
+  background: #32557f;
+  width: 150px;
+  height: 75px;
+}
