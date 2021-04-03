@@ -309,3 +309,53 @@ div.blinkbox {
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
 }
+#twelve-point-star {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  position: absolute;
+}
+#twelve-point-star:before {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  content: "";
+  position: absolute;
+  /* Rotate */
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+#twelve-point-star:after {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  content: "";
+  position: absolute;
+  /* Rotate */
+  -moz-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+#six-point-star {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid blue;
+}
+#six-point-star:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid blue;
+  margin: 30px 0 0 -50px;
+}
